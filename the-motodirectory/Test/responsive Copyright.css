@@ -1,0 +1,1141 @@
+body {
+    background-color: #292621;
+    color: white;
+    background-image: url(Background.png);
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+table{
+    table-layout: fixed;
+}
+
+
+/*-- Anfang Header --*/
+
+@media screen and (max-width:1280px){
+    header {
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    #heading {
+        width: 100%;
+        float: left;
+        height: 25%;
+        margin-top: 2%;
+    }
+    
+    h1{
+        font-size: 300%;
+        border-top: solid;
+        border-bottom: solid;
+        border-width: 6px;
+        border-color: red;
+    }
+    
+    .icons {
+        height: 10px;
+        width: 30px;
+    }
+    
+    #one-four {
+        font-size: 4em;
+        margin-top: -2%;
+        padding-left: 5%;
+    }
+    
+    #two-four {
+        font-size: 4em;
+        padding-left: 4.5%;
+    }
+    
+    #three-four {
+        font-size: 4em;
+        margin-top: -2%;
+        padding-left: 11.4%;
+    }
+    
+    #four-four {
+        font-size: 4em;
+        padding-left: 10%;
+    }
+    
+    nav{
+        float: right;
+        margin-top: -45%;
+        margin-right: -500px;
+        width: auto;
+        height: auto;
+    }
+    
+    #Menu{
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    nav ul li {
+        font-size: 150%;
+        float: left;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+    
+    #underhead {
+        margin-top: -100px;
+        padding-top: -20%;
+        font-size: 15px;
+    }
+    
+    #main {
+        width: 95%;
+        margin: auto;
+    }
+
+    #left {
+        width: 25%
+    }
+
+    #recsho {
+        table-layout: fixed;
+    }
+    
+    #headingrec{
+        width: 50px;
+    }
+    
+    .rec-heading{
+        padding-top: 15%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    .reclogo {
+        height: 80px;
+        width: 25%;
+    }
+    
+    #tagbox{
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 100%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    #right {
+        width: 65%;
+    }
+
+    #gh{
+        margin-top: -30.3%;
+    }
+
+    #shheading{
+        width: 300%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    #gh ol{
+        list-style: none;
+        width: 200%;
+        
+        margin-left: -2.5%;
+    }
+
+    #gh ol li{
+        width: 11px;
+        display: inline-block;
+        padding-right: 3.5px;;
+        padding-left: 3.5px;
+        font-size: 15px; 
+    }
+
+    .footer{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .footer ul li{
+        display: inline-block;
+        padding-left: 80px;;
+        padding-right: 80px;;
+    }
+
+    .footer2{
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:980px){
+    
+    header {
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    #heading {
+        width: 100%;
+        float: left;
+        height: 25%;
+        margin-top: 2%;
+    }
+    
+    h1{
+        font-size: 242%;
+        border-top: solid;
+        border-bottom: solid;
+        border-width: 6px;
+        border-color: red;
+    }
+    
+    .icons {
+        height: 10px;
+        width: 30px;
+    }
+    
+    #one-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 5%;
+        margin-right: 10px;
+    }
+    
+    #two-four {
+        font-size: 3em;
+        padding-left: 10.5%;
+    }
+    
+    #three-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 12.7%;
+    }
+    
+    #four-four {
+        font-size: 3em;
+        padding-left: 10.5%;
+    }
+    
+    nav{
+        float: right;
+        margin-top: -80%;
+        margin-right: -400px;
+        margin-left: -100px;
+        width: auto;
+        height: auto;
+    }
+    
+    #Menu{
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    nav ul li {
+        font-size: 130%;
+        float: left;
+        display: inline-block;
+        padding-right: 20px;
+        padding-left: 18px;
+    }
+    
+    #underhead {
+        margin-top: -200px;
+        padding-top: -50%;
+        font-size: 15px
+    }
+    
+    #main {
+        width: 95%;
+        margin: auto;
+    }
+
+    #left {
+        width: 25%
+    }
+
+    #recsho {
+        table-layout: fixed;
+    }
+
+    .rec-heading{
+        padding-top: 15%;
+        width: 235%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    .reclogo {
+        height: 80px;
+        width: 25%;
+    }
+    
+    #tagbox{
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 100%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    #right {
+        width: 65%;
+    }
+
+    #gh{
+        margin-top: -32.1%;
+    }
+
+    #shheading{
+        margin-top: -90px;
+        width: 300%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    #gh ol{
+        list-style: none;
+        width: 300%;
+        margin-top: -50px;
+        margin-left: -10.5%;
+    }
+
+    #gh ol li{
+        width: 11px;
+        display: inline-block;
+        padding-right: 14px;;
+        padding-left: 3.5px;
+        padding-bottom: 6px;
+        font-size: 15px; 
+    }
+
+    .footer{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .footer ul li{
+        display: inline-block;
+        padding-left: 80px;;
+        padding-right: 80px;;
+    }
+
+    .footer2{
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+        text-align: center;
+    }
+    
+}
+
+
+
+@media screen and (max-width:800px){
+    
+    
+    header {
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    #heading {
+        width: 100%;
+        float: left;
+        height: 25%;
+        margin-top: 2%;
+    }
+    
+    h1{
+        font-size: 173%;
+        border-top: solid;
+        border-bottom: solid;
+        border-width: 6px;
+        border-color: red;
+    }
+    
+    .icons {
+        height: 10px;
+        width: 30px;
+    }
+    
+    #one-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 5%;
+        margin-right: 10px;
+    }
+    
+    #two-four {
+        font-size: 3em;
+        padding-left: 10.5%;
+    }
+    
+    #three-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 10.6%;
+    }
+    
+    #four-four {
+        font-size: 3em;
+        padding-left: 8.7%;
+    }
+    
+    nav{
+        float: right;
+        margin-top: -80%;
+        position: relative;
+        right: 60px;
+    }
+    
+    #Menu{
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    nav ul li {
+        float: left;
+        display: inline-block;
+        padding-right: 15px;
+        font-size: 18px;
+        
+    }
+    
+    #underhead {
+        margin-top: -200px;
+        padding-top: -50%;
+        font-size: 13px;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    #main {
+        width: 95%;
+        margin: auto;
+    }
+
+    #left {
+        width: 25%
+    }
+
+    #recsho {
+        table-layout: fixed;
+    }
+
+    .rec-heading{
+        padding-top: 15%;
+        width: 146%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    .reclogo {
+        height: 80px;
+        width: 25%;
+    }
+    
+    #tagbox{
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 100%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    #right {
+        width: 65%;
+    }
+
+    #gh{
+        margin-top: -32.1%;
+    }
+
+    #shheading{
+        margin-top: -159px;
+        width: 300%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+    }
+
+    #gh ol{
+        list-style: none;
+        width: 300%;
+        margin-top: -110px;
+        margin-left: -15%;
+        text-align: center;
+    }
+
+    #gh ol li{
+        width: 11px;
+        display: inline-block;
+        padding-right: 14px;;
+        padding-left: 3.5px;
+        padding-bottom: 6px;
+        font-size: 15px; 
+    }
+
+    .footer{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .footer ul li{
+        display: inline-block;
+        padding-left: 80px;;
+        padding-right: 80px;;
+    }
+
+    .footer2{
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+    
+    header {
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    #heading {
+        float: left;
+        height: 25%;
+        margin-top: 2%;
+    }
+    
+    h1{
+        font-size: 173%;
+        border-top: solid;
+        border-bottom: solid;
+        border-width: 6px;
+        border-color: red;
+    }
+    
+    .icons {
+        height: 10px;
+        width: 30px;
+    }
+    
+    #one-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 5%;
+        margin-right: 10px;
+    }
+    
+    #two-four {
+        font-size: 3em;
+        padding-left: 10.5%;
+    }
+    
+    #three-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 10.6%;
+    }
+    
+    #four-four {
+        font-size: 3em;
+        padding-left: 8.7%;
+    }
+    
+    nav{
+        float: right;
+        margin-top: -80%;
+        position: relative;
+        right: 60px;
+    }
+    
+    #Menu{
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    nav ul li {
+        float: left;
+        display: inline-block;
+        padding-right: 15px;
+        font-size: 18px;
+        
+    }
+    
+    #underhead {
+        margin-top: -200px;
+        padding-top: -50%;
+        font-size: 13px;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    #main {
+        width: 95%;
+        margin: auto;
+    }
+
+    #left {
+        width: 25%
+    }
+
+    #recsho {
+        table-layout: fixed;
+    }
+
+    .rec-heading{
+        padding-top: 15%;
+        width: 166%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+    }
+
+    .reclogo {
+        height: 80px;
+        width: 25%;
+    }
+    
+    #tagbox{
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 100%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+    }
+
+    #right {
+        width: 65%;
+    }
+
+    #gh{
+        width: 700px;
+    }
+
+    #shheading{
+        margin-top: -172px;
+        width: 500px;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+    }
+
+    #gh ol{
+        list-style: none;
+        width: 300%;
+        margin-top: -140px;
+        margin-left: -15%;
+        text-align: center;
+    }
+
+    #gh ol li{
+        width: 11px;
+        display: inline-block;
+        padding-right: 14px;;
+        padding-left: 3.5px;
+        padding-bottom: 6px;
+        font-size: 15px; 
+    }
+    
+    #Infotext p {
+        font-size: 13px;
+        margin-top: -600px;
+        margin-left: 10px;
+    }
+
+    .footer{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .footer ul li{
+        display: inline-block;
+        padding-left: 80px;;
+        padding-right: 80px;;
+    }
+
+    .footer2{
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:360px){
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    header {
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    #heading {
+        float: left;
+        height: 25%;
+        margin-top: 2%;
+    }
+    
+    h1{
+        font-size: 170%;
+        border-top: solid;
+        border-bottom: solid;
+        border-width: 6px;
+        border-color: red;
+        position: relative;
+        width: 300;
+    }
+    
+    .icons {
+        height: 10px;
+        width: 30px;
+        position: relative;
+        top: 120px;
+        right: 335px;
+    }
+    
+    #one-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 5%;
+        margin-right: 10px;
+    }
+    
+    #two-four {
+        font-size: 3em;
+        padding-left: 8.5%;
+    }
+    
+    #three-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 8.8%;
+    }
+    
+    #four-four {
+        font-size: 3em;
+        padding-left: 7.2%;
+    }
+    
+    nav{
+        float: right;
+        margin-top: -80%;
+        position: relative;
+        right: 460px;
+        top: 115px;
+    }
+    
+    #Menu{
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    nav ul li {
+        float: left;
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 15px;
+        
+    }
+    
+    #underhead {
+        margin-top: -200px;
+        padding-top: -50%;
+        font-size: 13px;
+        position: relative;
+        bottom: 20px;
+        text-align: center;
+    }
+    
+    #main {
+        width: 95%;
+        margin: auto;
+    }
+
+    #left {
+        width: 25%
+    }
+
+    #recsho {
+        table-layout: fixed;
+        position: relative;
+        top: 67px;
+        width: 300px;
+    }
+
+    .rec-heading{
+        padding-top: 15%;
+        width: 1500%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+    }
+
+    .reclogo {
+        height: 80px;
+        width: 25%;
+    }
+    
+    #tagbox{
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 300px;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+        margin-top: 500px;
+    }
+
+    #right {
+        width: 300px;
+    }
+
+    #gh{
+        margin-top: -32.1%;
+    }
+
+    #shheading{
+        margin-top: -160px;
+        width: 300px;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+        position: relative;
+        right: 7px;
+    }
+
+    #gh ol{
+        list-style: none;
+        width: 300px;
+        margin-top: -130px;
+        margin-left: -15%;
+        text-align: center;
+        position: relative;
+        left: 8px;
+    }
+
+    #gh ol li{
+        width: 11px;
+        display: inline-block;
+        padding-right: 14px;;
+        padding-left: 3.5px;
+        padding-bottom: 6px;
+        font-size: 15px; 
+    }
+
+    #Mainpart{
+      width: 300px;  
+    }
+    
+    #Infotext p {
+        font-size: 13px;
+        margin-top: -120px;
+    }
+    
+    .footer{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .footer ul li{
+        display: inline-block;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer2{
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    header {
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    #heading {
+        float: left;
+        height: 25%;
+        margin-top: 2%;
+    }
+    
+    h1{
+        font-size: 154%;
+        border-top: solid;
+        border-bottom: solid;
+        border-width: 6px;
+        border-color: red;
+        position: relative;
+        width: 270px;
+    }
+    
+    .icons {
+        height: 10px;
+        width: 30px;
+        position: relative;
+        top: 120px;
+        right: 314px;
+    }
+    
+    #one-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 5%;
+        margin-right: 10px;
+    }
+    
+    #two-four {
+        font-size: 3em;
+        padding-left: 8.2%;
+    }
+    
+    #three-four {
+        font-size: 3em;
+        margin-top: -2%;
+        padding-left: 8.5%;
+    }
+    
+    #four-four {
+        font-size: 3em;
+        padding-left: 6.3%;
+    }
+    
+    nav{
+        float: right;
+        margin-top: -80%;
+        position: relative;
+        right: 460px;
+        top: 115px;
+    }
+    
+    #Menu{
+        list-style-type: none;
+        width: 100%;
+    }
+    
+    nav ul li {
+        float: left;
+        display: inline-block;
+        padding-right: 5px;
+        font-size: 15px;
+        
+    }
+    
+    #underhead {
+        margin-top: -200px;
+        padding-top: -50%;
+        font-size: 13px;
+        position: relative;
+        bottom: 20px;
+        text-align: center;
+    }
+    
+    #main {
+        width: 95%;
+        margin: auto;
+    }
+
+    #left {
+        width: 25%
+    }
+
+    #recsho {
+        table-layout: fixed;
+        position: relative;
+        top: 67px;
+        width: 270px;
+    }
+
+    .rec-heading{
+        padding-top: 15%;
+        width: 1500%;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+    }
+
+    .reclogo {
+        height: 80px;
+        width: 25%;
+    }
+    
+    #tagbox{
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    .tag{
+        width: 280px;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+        margin-top: 500px;
+    }
+
+    #right {
+        width: 300px;
+    }
+
+    #gh{
+        margin-top: -32.1%;
+    }
+
+    #shheading{
+        margin-top: -130px;
+        width: 280px;
+        border-bottom: solid;
+        border-width: 5px;
+        border-color: red;
+        font-size: 100%;
+        position: relative;
+        right: 7px;
+    }
+
+    #gh ol{
+        list-style: none;
+        width: 280px;
+        margin-top: -100px;
+        margin-left: -15%;
+        text-align: center;
+        position: relative;
+        left: 8px;
+    }
+
+    #gh ol li{
+        width: 11px;
+        display: inline-block;
+        padding-right: 14px;;
+        padding-left: 3.5px;
+        padding-bottom: 6px;
+        font-size: 15px; 
+    }
+
+    #Mainpart{
+      width: 300px;  
+    }
+    
+    #Infotext p {
+        font-size: 13px;
+        margin-top: -90px;
+    }
+    
+    .footer{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .footer ul li{
+        display: inline-block;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer2{
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+        text-align: center;
+    }
+}

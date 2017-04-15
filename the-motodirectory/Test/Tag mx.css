@@ -1,0 +1,213 @@
+body {
+    background-color: #292621;
+    background-image: url(Background.png);
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+table{
+    table-layout: fixed;
+}
+
+
+/*-- Anfang Header --*/
+
+
+header {
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#heading {
+    height: 155px;
+    width: 100%;
+    float: left;
+    margin-top: -3%;
+    
+}
+
+h1 {
+    font-size: 600%;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 7px;
+    border-color: red;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+}
+
+#one-four {
+    font-size: 5em;
+    margin-top: 2%;
+    margin-right: -100px;
+    padding-left: 3.4%;
+}
+
+#two-four {
+    font-size: 5em;
+    padding-left: 0.4%;
+}
+
+#three-four {
+    font-size: 5em;
+    margin-top: -2%;
+    padding-left: 6.4%;
+}
+
+#four-four {
+    font-size: 5em;
+    padding-left: 5.6%;
+}
+
+nav{
+    float: right;
+    margin-top: -20%;
+    margin-right: -500;
+    width: auto;
+    height: auto;
+}
+
+#Menu{
+    list-style-type: none;
+    width: 107%
+}
+
+nav ul li {
+    font-size: 180%;
+    float: left;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+#underhead {
+    padding-top: 2.4%;
+}
+
+
+/*-- Ende Header --*/
+
+
+#main {
+    width: 95%;
+    margin: auto;
+}
+
+#left {
+    width: 25%
+}
+
+#recsho {
+    table-layout: fixed;
+}
+
+.rec-heading{
+    padding-top: 15%;
+    width: 360%;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: red;
+}
+
+.reclogo {
+    height: 80px;
+}
+
+
+/*-- Ende Recommended Shops --*/
+
+
+#tagbox{
+    text-align: justify;
+    text-decoration: none;
+    margin-top: 5%;
+}
+
+.tag{
+    width: 100%;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: red;
+}
+
+
+/*-- Ende linke Seite --*/
+
+
+#right {
+    width: 65%;
+}
+
+#gh{
+    margin-top: -17%;
+}
+
+#shheading{
+    width: 290%;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: red;
+}
+
+#gh ol{
+    list-style: none;
+    width: 300%;
+    margin-left: -2.5%
+}
+
+#gh ol li{
+    width: 11px;
+    display: inline-block;
+    padding-right: 9px;;
+    padding-left: 9px;;
+}
+
+#Infotext{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+}
+
+#Data{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+}
+
+
+/*-- Ende rechte Seite --*/
+
+
+.footer{
+    width: 95%;
+    margin: auto;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding-left: 80px;;
+    padding-right: 80px;;
+}
+
+.footer2{
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
